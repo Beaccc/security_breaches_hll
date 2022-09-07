@@ -1,0 +1,81 @@
+... Creating the 10 attack vectors  with a size of 10000... 
+
+Attack vector: 1 
+Array created, Nº elements: 10000
+Execution time to create the vector 4584211: 2862.752437 s
+
+Attack vector: 13914 
+Array created, Nº elements: 10000
+Execution time to create the vector 6702046: 2750.430404 s
+
+Attack vector: 27824 
+Array created, Nº elements: 10000
+Execution time to create the vector 342467: 2797.664217 s
+
+Attack vector: 41681 
+Array created, Nº elements: 10000
+Execution time to create the vector 9130046: 2784.331778 s
+
+Attack vector: 55511 
+Array created, Nº elements: 10000
+Execution time to create the vector 781974: 2818.809533 s
+
+Attack vector: 69410 
+Array created, Nº elements: 10000
+Execution time to create the vector 9999233: 2821.046341 s
+
+Attack vector: 83345 
+Array created, Nº elements: 10000
+Execution time to create the vector 2099466: 2753.832081 s
+
+Attack vector: 97188 
+Array created, Nº elements: 10000
+Execution time to create the vector 3672980: 2775.688676 s
+
+Attack vector: 111028 
+Array created, Nº elements: 10000
+Execution time to create the vector 2239456: 2817.844371 s
+
+Attack vector: 124959 
+Array created, Nº elements: 10000
+Execution time to create the vector 5880892: 2840.738568 s
+
+... Test phase ...
+
+Joining all the elements of the diferent attack vectors in an empty HLL
+Execution time: 548.723514 s
+
+... Calculating cardinality ...
+
+REAL SIZE:  100000 
+APPROX_DISTINCT ESTIMATION: 34538 
+
+... Mixing and filtering phase ...
+
+Array has 100000 elements 
+
+... Shuffling elements ... 
+
+... Filtering elements ... 
+REAL SIZE:  93729 
+APPROX_DISTINCT ESTIMATION: 19031 
+
+
+... Filtering phase 2 ...
+
+Array has 93729 elements 
+
+... Shuffling elements ... 
+
+REAL SIZE:  87900 
+APPROX_DISTINCT ESTIMATION: 13650 
+
+
+... Filtering phase 3 ...
+
+Array has 87900 elements 
+
+... Shuffling elements ... 
+
+REAL SIZE:  82498 
+APPROX_DISTINCT ESTIMATION: 10880 
