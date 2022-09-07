@@ -4,7 +4,7 @@
 
 Repository created to support my Master Thesis: Security Breaches on HyperLogLog (HLL) Data Sketch. In this project the security of Hyperloglog algorithm is tested trying to manipulate its estimates. An evasion attack has been carried out against the implementation of HLL in Presto.
 
-##Versions:
+## Versions:
 
 Ruby 2.5.1 
 Prest-Server-350
@@ -12,7 +12,7 @@ MySQL 8.0.30
 
 ## Installation:
 
-###Dependencies
+### Dependencies
 The first step is to install al the dependencies by executing:
 
 ```bash
